@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 200px;
+            transition: transform 0.2s;
+        }
+
+        li:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            display: block;
+            padding: 15px 20px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        a:hover {
+            background-color: #f9f9f9;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="./findmatch/index.html">findmatch</a></li>
+        <li><a href="./hanoi/index.html">hanoi</a></li>
+        <li><a href="./horse/index.html">horse</a></li>
+        <li><a href="./kmChess/index.html">kmChess</a></li>
+        <li><a href="./magic/index.html">magic</a></li>
+        <li><a href="./puzzle/index.html">puzzle</a></li>
+        <li><a href="./shellgame/index.html">shellgame</a></li>
+        <li><a href="./turntable/index.html">turntable</a></li>
+    </ul>
+</body>
+</html>
